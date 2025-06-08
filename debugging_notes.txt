@@ -1,0 +1,10 @@
+
+# how to install the correct compatibale ctransformers:
+sudo apk add build-base cmake git python3-dev libstdc++
+pip uninstall ctransformers -y
+git clone https://github.com/marella/ctransformers.git
+cd ctransformers
+pip install .
+
+
+
